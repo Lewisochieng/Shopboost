@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Register</title>
+  <link rel="stylesheet" href="css/register.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url("assets/bgimage.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+<form action="">
+  <legend>Create Account.</legend><br>
+
+   <label for="fname">First Name:</label>
+  <input type="text" id="fname" placeholder="Enter first name" required="required">
+  <br><br>
+
+  <label for="middle name">Middle Name:</label>
+  <input type="text" id="middle name" placeholder="Enter middle name" required="required">
+  <br><br>
+
+   <label for="surname">Surname:</label>
+  <input type="text" id="surname" placeholder="Enter surname" required="required">
+  <br><br>
+
+  <label for="email">email:</label>
+  <input type="text" id="email" placeholder="example@gmail.com" required="required"><br><br>
+
+  <label for="pwd">password:</label>
+  <input type="password" id="pwd" placeholder="enter password" required="required"><br><br>
+
+  <label for="phone">phone no.</label>
+  <input type="tel" id="phone" placeholder="phone no." required="required"><br><br>
+
+  <label for="address">Address:</label>
+  <input type="number" id="address" placeholder="Address" required="required"><br><br>
+
+  <label for="file">Choose image:</label>
+  <input type="file" id="file" required="required"><br><br>
+
+  <label for="nation">Nationality</label>
+  <select name="" id="nation">
+    <option value="" disabled="disabled">--choose nationality--</option>
+    <option value="">Dutch</option>
+    <option value="">German</option>
+    <option value="">Italian</option>
+    <option value="">Kenyan</option>
+  </select><br><br>
+
+  <label >choose gender:</label><br><br>
+  <input type="radio" id="male">
+  <label for="male">male</label><br>
+
+   <input type="radio" id="female">
+   <label for="female">female</label><br>
+
+   <input type="radio" id="other">
+   <label for="other">other</label><br><br>
+
+  <label >Hobby:</label><br><br>
+  <input type="checkbox" id="cricket">
+  <label for="cricket">Cricket</label><br><br>
+
+   <input type="checkbox" id="football">
+   <label for="football">football</label><br><br>
+
+    <input type="checkbox" id="hockey">
+    <label for="hockey">Cricket</label><br><br>
+
+  <label for="message">Describe yourself</label><br><br>
+  <textarea id="message" cols="40" rows="10" placeholder="Describe yourself." >
+  </textarea><br><br>
+
+  <input type="checkbox" id="terms">
+  <label for="terms">I agree to terms and conditions...</label><br><br>
+
+  <button type="submit">Register</button>
+
+
+
+
+</form>
+
+</body>
+</html>

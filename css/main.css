@@ -1,0 +1,15 @@
+h1{
+    color: antiquewhite;
+    text-align: center;
+    background-color: #0d0e0e;
+    line-height: 100px;
+    text-shadow: 12px 4px 12px #aaaaa5;
+    font-size: 80px;
+}
+h1:hover{
+    background-color: #6666e3;
+}
+.paragraph{
+    font-size: 14px;
+    font-family: "Barlow Condensed", serif;
+}

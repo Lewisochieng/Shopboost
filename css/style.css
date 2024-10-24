@@ -1,0 +1,24 @@
+h1{
+    color:lavender;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    background-color: #10100d;
+    text-shadow: 10px 4px 10px yellow;
+    text-decoration: underline;
+}
+
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+img:hover{
+    opacity: 0.8;
+}
+
+body{
+    background-color: darkcyan;
+
+}
